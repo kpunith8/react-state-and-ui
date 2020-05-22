@@ -1,0 +1,93 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+input[type="text"] {
+  width: 200px;
+  height: 2rem;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+input[type="checkbox"] {
+  margin-left: 15px;
+  transform: scale(1.8);
+}
+
+button {
+  margin-left: 10px;
+  height: 2.3rem;
+  width: 100px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-style: bold;
+}
+
+.add {
+  background-color: rgba(0, 0, 255, 0.2);
+  margin-left: 40px;
+}
+
+.delete {
+  background-color: rgba(255, 0, 0, 0.2);
+}
+
+.title {
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.list-name {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  input[type="text"] {
+    width: 150px;
+    height: 1.7rem;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+
+  input[type="checkbox"] {
+    margin-left: 15px;
+    transform: scale(1.5);
+  }
+
+  .title {
+    font-size: 26px;
+  }
+
+  .list-name {
+    font-size: 20px;
+  }
+
+  button {
+    margin-left: 10px;
+    height: 1.7rem;
+    width: 80px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-style: bold;
+  }
+
+  .list-item {
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+    align-content: center;
+    margin-top: 20px;
+  }
+}
